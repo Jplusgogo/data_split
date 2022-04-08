@@ -1,3 +1,18 @@
+data_split
+
+## This folder is the directory used to store training samples
+### The steps to use are as follows:
+* (1) Create a new folder "--filename--your own file name" under the data_set folder
+* (2) Click on the link to download the flower classification dataset [http://download.tensorflow.org/example_images/flower_photos.tgz](http://download.tensorflow.org/example_images/flower_photos.tgz)
+* (3) Unzip the dataset to the --filename-- folder
+* (4) Execute the "split_data.py" script to automatically divide the dataset into training set train and validation set val
+
+````
+├── --filename--
+        ├── photos (decompressed dataset folder)
+        ├── train (generated training set)
+        └── val (generated validation set)
+
 # data_split
 
 ## 该文件夹是用来存放训练样本的目录
@@ -9,7 +24,7 @@
 
 ```
 ├── --filename--  
-       ├── photos（解压的数据集文件夹，3670个样本）  
-       ├── train（生成的训练集，3306个样本）  
-       └── val（生成的验证集，364个样本） 
+       ├── photos（解压的数据集文件夹）  
+       ├── train（生成的训练集）  
+       └── val（生成的验证集） 
 ```
