@@ -1,4 +1,4 @@
-data_split
+# data_split
 
 ## This folder is the directory used to store training samples
 ### The steps to use are as follows:
@@ -14,7 +14,7 @@ data_split
         └── val (generated validation set)
 ```
 
-# data_split
+# 数据打包方法
 
 ## 该文件夹是用来存放训练样本的目录
 ### 使用步骤如下：
