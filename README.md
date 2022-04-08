@@ -7,11 +7,12 @@ data_split
 * (3) Unzip the dataset to the --filename-- folder
 * (4) Execute the "split_data.py" script to automatically divide the dataset into training set train and validation set val
 
-````
+```
 ├── --filename--
         ├── photos (decompressed dataset folder)
         ├── train (generated training set)
         └── val (generated validation set)
+```
 
 # data_split
 
